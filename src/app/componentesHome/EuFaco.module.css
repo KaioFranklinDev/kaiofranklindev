@@ -1,0 +1,46 @@
+.divEuFaco{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    
+    background-color: #300b56;
+}
+
+.divTitulo{
+    display: flex;
+    justify-content: center;
+}
+.divTitulo h2{
+    letter-spacing: -5px;
+    font-size: 100px;
+    color: #100d31;
+}
+
+
+.divTitulo p{
+    
+    position: absolute;
+    margin-top: 30px;
+    
+    font-size: 35px;
+}
+.divTitulo div{
+    position: absolute;
+    margin-top: 75px;
+    height: 5px;
+    width: 100px;
+    background-color: blueviolet;
+    
+}
+@media (max-width: 800px) {
+    .divTitulo h2 {
+        font-size: 11.5vw;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .divTitulo h2 {
+        font-size: 11.5vw;
+        margin-top: 20px;
+    }
+}

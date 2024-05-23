@@ -1,0 +1,40 @@
+/* components/WhatIDo.module.css */
+.whatIDoSection {
+  
+  background-color: #300b56;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50vw;
+}
+
+.service {
+  text-align: center;
+  margin: 10px;
+  flex: 1 1 200px;
+}
+
+.icon {
+  font-size: 3em;
+  color: blueviolet;
+  
+}
+
+.service h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.service p {
+  font-size: 1em;
+}

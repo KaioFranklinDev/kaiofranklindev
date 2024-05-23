@@ -1,0 +1,22 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.contato h2{
+    color: white;
+    padding-bottom: 30px;
+}
+.contato p{
+    padding: 5px;
+    text-align: center;
+}
+.traco{
+    background-color: blueviolet;
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    margin-top: -80px;
+}

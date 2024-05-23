@@ -1,0 +1,25 @@
+.main{ 
+    background: rgb(2,0,36);
+    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(13,3,48,1) 55%, rgba(48,11,86,1) 100%);
+    
+    flex: 1;
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+.main span{
+    color: #8e22bb  ;
+}
+.main p{
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+@media (max-width : 700px) {
+    .main p{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
