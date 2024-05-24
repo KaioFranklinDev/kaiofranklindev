@@ -32,15 +32,10 @@
     background-color: blueviolet;
     
 }
-@media (max-width: 800px) {
-    .divTitulo h2 {
-        font-size: 11.5vw;
-        margin-top: 10px;
-    }
-}
+
 @media (max-width: 500px) {
     .divTitulo h2 {
-        font-size: 11.5vw;
-        margin-top: 20px;
+        font-size: 20.5vw;
+        margin-top: 5px;
     }
 }
